@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgxPopperModule } from 'ngx-popper';
+import { NgxPopper } from 'angular-popper';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -38,7 +38,7 @@ import { DeliveryComponent } from './payment/delivery/delivery.component';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    NgxPopperModule,
+    NgxPopper,
     NgbModule,
     FlexLayoutModule,
   ],
